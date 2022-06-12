@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidPrinciples-Dot-Net-Series-1", "SolidPrinciples-Dot-Net-Series-1\SolidPrinciples-Dot-Net-Series-1.csproj", "{D29080E3-F435-4D9C-805E-14323B117982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-SolidPrinciples", "SolidPrinciples-Dot-Net-Series-1\1-SolidPrinciples.csproj", "{D29080E3-F435-4D9C-805E-14323B117982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-MemoryAndConstructors", "MemoryAndConstructors\2-MemoryAndConstructors.csproj", "{022F47ED-E3E1-478F-A4BC-20A4E1FEC4A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D29080E3-F435-4D9C-805E-14323B117982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D29080E3-F435-4D9C-805E-14323B117982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D29080E3-F435-4D9C-805E-14323B117982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022F47ED-E3E1-478F-A4BC-20A4E1FEC4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022F47ED-E3E1-478F-A4BC-20A4E1FEC4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022F47ED-E3E1-478F-A4BC-20A4E1FEC4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022F47ED-E3E1-478F-A4BC-20A4E1FEC4A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

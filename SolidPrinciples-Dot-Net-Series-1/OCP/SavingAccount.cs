@@ -15,4 +15,54 @@
             }
         }
     }
+
+    public interface IAccount
+    {
+        public void CalculateInterest(string accountType);
+    }
+
+    public class RegularAccount : IAccount
+    {
+        public void CalculateInterest(string accountType)
+        {
+
+        }
+    }
+
+    public class SalaryAccount : IAccount
+    {
+        public void CalculateInterest(string accountType)
+        {
+
+        }
+    }
+
+    public class FreelancerAccount : IAccount
+    {
+        public void CalculateInterest(string accountType)
+        {
+
+        }
+    }
+
+
+    public class Parent
+    {
+
+        public void parentMethod()
+        {
+
+        }
+
+    }
+
+
+    public class Child : Parent
+    {
+        public void childMethod()
+        {
+
+        }
+    }
+
 }

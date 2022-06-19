@@ -15,3 +15,17 @@
         }
     }
 }
+
+
+public class Parent
+{
+    public string Name { get; set; }
+    public string Description { get; set; }
+}
+
+public class Child : Parent
+{
+
+}
+
+
